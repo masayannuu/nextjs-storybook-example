@@ -8,6 +8,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "static": "next build && next export",
     "export": "next export"
   },
   "dependencies": {
