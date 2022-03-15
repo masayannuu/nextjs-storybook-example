@@ -5,10 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build-static": "next build && next export",
+    "build": "next build && next export",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "export": "next export"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",
