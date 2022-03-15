@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
+    "build-static": "next build && next export",
     "build": "rimraf dist && tsc",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-static": "next build && next export",
     "export": "next export"
   },
   "dependencies": {
