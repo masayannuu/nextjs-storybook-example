@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build-static": "next build && next export",
-    "build-package": "rimraf dist && tsc",
+    "build": "next build && next export",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "export": "next export"
